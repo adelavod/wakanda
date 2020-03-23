@@ -1,7 +1,6 @@
 .jumbotron.jumbotron-main {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
   color: #fff;
   padding-top: 0;
   padding-bottom: 0;
@@ -17,10 +16,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  background: #6819e8;
-  background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
-  background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);
-  background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0B7ABF, #111C59);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0B7ABF, #111C59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 );
 }
 

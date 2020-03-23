@@ -1,0 +1,71 @@
+#services {
+    color: #686868;
+    background: #b9bbbc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #b9bbbc, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #b9bbbc, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-top: solid 20px black;
+    border-bottom: solid 20px black;
+    margin-bottom: 0;
+}
+<!--
+#contact {
+    color: white;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0B7ABF, #111C59);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0B7ABF, #111C59);
+    height: 100%;
+    max-height: 100%;
+    background-attachment: fixed;
+-->
+
+}
+
+.col-md-4 {
+    margin: 0;
+    padding: 10px;
+}
+#services h3, h1{
+    color: #111C59
+}
+.fixed {
+    background-image: url("/assets/img/blue.jpeg");
+    background-position: left;
+    opacity: 0.5;
+}
+
+#footer {
+    background-color: #111C59;
+}
+
+#footer p{
+    font-size: 18px;
+}
+
+/*--- iOS Fixed Background Image --*/
+
+.fixed-background {
+    position: relative;
+    width: 100%;
+}
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999!important;
+}
+.fixed {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
